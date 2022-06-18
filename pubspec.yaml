@@ -1,0 +1,37 @@
+name: flutter_complete_guide
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.15.8
+
+  cupertino_icons: ^0.1.2
+
+# Dev Dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+#  Image Setup
+  assets:
+   - assets/images/waiting.png
+
+# Font set-up
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
